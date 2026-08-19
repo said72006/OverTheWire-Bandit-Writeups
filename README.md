@@ -1,83 +1,158 @@
-# OverTheWire Bandit Writeups
+<div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-CLI-informational)
-![SSH](https://img.shields.io/badge/SSH-Practice-informational)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Hands--On-informational)
+# 🔐 OverTheWire Bandit Writeups
+
+### Linux • SSH • CLI • Cybersecurity Fundamentals
+
+![Linux](https://img.shields.io/badge/Linux-CLI-FCC624?logo=linux&logoColor=black)
+![SSH](https://img.shields.io/badge/SSH-Hands--On-2C8EBB?logo=openssh&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Learning-111111?logo=hackthebox&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 A personal learning journal documenting my progress through the **OverTheWire Bandit** wargame.
 
-The goal of this repository is to practice Linux command-line skills, SSH, file permissions, text processing, networking basics, and problem-solving through hands-on challenges.
+[🌐 OverTheWire Bandit](https://overthewire.org/wargames/bandit/) • [👤 My GitHub](https://github.com/said72006)
 
-> **Important:** Passwords/flags are intentionally not published. These write-ups focus on the approach, commands, and lessons learned.
+</div>
 
-## Progress Strategy
+---
 
-I publish progress in milestones of **5 levels at a time**.
+## 🎯 Why This Repository?
+
+I use Bandit to build practical Linux and cybersecurity skills instead of only studying commands theoretically.
+
+Each write-up focuses on:
+
+- Understanding the challenge
+- Choosing the right Linux tools
+- Explaining the approach
+- Recording the commands I practiced
+- Writing down the lesson learned
+
+> [!IMPORTANT]
+> **Passwords, flags, and active credentials are intentionally not published.** The repository documents the learning process without spoiling the challenges.
+
+---
+
+## 📈 Progress
+
+I publish my progress in **5-level milestones** so each update represents a meaningful block of hands-on practice.
 
 | Milestone | Levels | Status |
 |---|---|---|
-| 1 | 0–4 | 🟡 In progress |
-| 2 | 5–9 | ⬜ Not started |
-| 3 | 10–14 | ⬜ Not started |
-| 4 | 15–19 | ⬜ Not started |
-| 5 | 20–24 | ⬜ Not started |
-| 6 | 25–29 | ⬜ Not started |
-| 7 | 30+ | ⬜ Not started |
+| 🟡 Milestone 01 | 0–4 | In Progress |
+| ⬜ Milestone 02 | 5–9 | Not Started |
+| ⬜ Milestone 03 | 10–14 | Not Started |
+| ⬜ Milestone 04 | 15–19 | Not Started |
+| ⬜ Milestone 05 | 20–24 | Not Started |
+| ⬜ Milestone 06 | 25–29 | Not Started |
+| ⬜ Milestone 07 | 30+ | Not Started |
 
-## Write-ups
+### Milestone 01 — Levels 0–4
 
-### Milestone 1 — Levels 0–4
-
-- [Level 00](levels/Level-00.md)
+- [Level 00 — SSH Connection](levels/Level-00.md)
 - [Level 01](levels/Level-01.md)
 - [Level 02](levels/Level-02.md)
 - [Level 03](levels/Level-03.md)
 - [Level 04](levels/Level-04.md)
 
-More write-ups will be added as I progress.
+---
 
-## What I’m Practicing
-
-- Linux command line
-- SSH and remote access
-- File and directory navigation
-- Hidden files and special filenames
-- File permissions and ownership
-- Text searching and filtering
-- Pipes and redirection
-- Basic networking concepts
-- Practical cybersecurity problem-solving
-
-## Repository Structure
+## 🧠 Skills I'm Practicing
 
 ```text
-OverTheWire-Bandit-Writeups/
-├── README.md
-├── LEVEL_TEMPLATE.md
-├── levels/
-│   ├── Level-00.md
-│   ├── Level-01.md
-│   ├── Level-02.md
-│   ├── Level-03.md
-│   └── Level-04.md
-└── assets/
-    └── .gitkeep
+Linux CLI
+   ├── Navigation & file handling
+   ├── Hidden and unusual filenames
+   ├── Permissions & ownership
+   ├── Searching & filtering
+   ├── Pipes & redirection
+   └── Text processing
+
+Remote Access
+   └── SSH
+
+Cybersecurity Mindset
+   ├── Enumeration
+   ├── Problem solving
+   ├── Reading clues carefully
+   └── Choosing the right command/tool
 ```
-
-## How I Document Each Level
-
-Each write-up contains:
-
-1. **Goal** — what the level asks for.
-2. **Approach** — how I thought about the challenge.
-3. **Commands Used** — the Linux commands involved.
-4. **What I Learned** — the key takeaway.
-5. **Notes** — useful details for future reference.
-
-## Disclaimer
-
-This repository is for educational purposes and personal learning. I avoid publishing active Bandit passwords so others can solve the challenges themselves.
 
 ---
 
-**Platform:** [OverTheWire Bandit](https://overthewire.org/wargames/bandit/)
+## 🧰 Commands & Tools
+
+As I progress, this repository will include practical use of tools such as:
+
+`ssh` • `ls` • `cd` • `cat` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `xxd` • `tar` • `gzip` • `bzip2`
+
+The list grows naturally as new levels introduce new concepts.
+
+---
+
+## 📂 Repository Structure
+
+```text
+OverTheWire-Bandit-Writeups/
+│
+├── README.md
+├── LEVEL_TEMPLATE.md
+│
+└── levels/
+    ├── Level-00.md
+    ├── Level-01.md
+    ├── Level-02.md
+    ├── Level-03.md
+    └── Level-04.md
+```
+
+---
+
+## 📝 Write-Up Format
+
+Every level follows a consistent structure:
+
+1. **Goal** — what I need to achieve
+2. **Approach** — how I analyze the challenge
+3. **Commands Used** — commands and options involved
+4. **What I Learned** — the main technical takeaway
+5. **Notes** — details worth remembering
+
+A reusable template is available in [`LEVEL_TEMPLATE.md`](LEVEL_TEMPLATE.md).
+
+---
+
+## 🚀 Learning Strategy
+
+```text
+Read the goal
+     ↓
+Explore the system
+     ↓
+Identify the right Linux tool
+     ↓
+Solve the challenge
+     ↓
+Understand why it worked
+     ↓
+Document the lesson
+```
+
+My goal is not simply to reach the next level — it is to understand the Linux concepts behind each solution.
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is for **education and personal learning**. It is based on the intentionally vulnerable OverTheWire Bandit training environment and should not be interpreted as authorization to test systems without permission.
+
+---
+
+<div align="center">
+
+### 🐧 Learn Linux. Break down problems. Build security skills.
+
+**Author:** [Said Ahmed Abu-Fouda](https://github.com/said72006)
+
+</div>
