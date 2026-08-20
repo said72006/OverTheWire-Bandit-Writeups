@@ -59,6 +59,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 ### Milestone 02 — Levels 5–9 🟡
 
 - [Level 05 — Recursive File Search](levels/Level-05.md)
+- [Level 06 — Ownership Filters & Error Redirection](levels/Level-06.md)
 
 ---
 
@@ -69,8 +70,10 @@ Linux CLI
    ├── Navigation & file handling
    ├── Hidden and unusual filenames
    ├── Permissions & ownership
-   ├── Recursive file searching
-   ├── File type and size filtering
+   ├── Recursive and filesystem-wide searching
+   ├── File type, owner, group, and size filtering
+   ├── Standard output vs standard error
+   ├── Error redirection with 2>/dev/null
    └── Shell wildcards
 
 Remote Access
@@ -107,7 +110,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-02.md
     ├── Level-03.md
     ├── Level-04.md
-    └── Level-05.md
+    ├── Level-05.md
+    └── Level-06.md
 ```
 
 ---
