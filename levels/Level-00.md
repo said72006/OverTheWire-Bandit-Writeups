@@ -2,24 +2,22 @@
 
 ## Goal
 
-Connect to the Bandit game server using SSH with the username provided by OverTheWire.
+_To be documented after I complete this level._
 
 ## Approach
 
-This level is mainly about learning how to connect to a remote Linux machine securely using SSH.
+_To be documented from my own solution._
 
 ## Commands Used
 
 ```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+# Commands will be added after completing the level
 ```
 
 ## What I Learned
 
-- How to connect to a remote machine using `ssh`.
-- How to specify a custom SSH port using `-p`.
-- The basic format: `ssh username@host -p port`.
+_To be added after completing the level._
 
 ## Notes
 
-The password is not included here. The goal of this repository is to document the learning process without exposing game credentials.
+Passwords and active credentials will not be published.
