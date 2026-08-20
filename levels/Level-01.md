@@ -2,25 +2,22 @@
 
 ## Goal
 
-Find the password for the next level in a file named `readme` located in the home directory.
+_To be documented after I complete this level._
 
 ## Approach
 
-After logging in, list the files in the current directory, then read the `readme` file.
+_To be documented from my own solution._
 
 ## Commands Used
 
 ```bash
-ls
-cat readme
+# Commands will be added after completing the level
 ```
 
 ## What I Learned
 
-- How to list files with `ls`.
-- How to display the contents of a text file using `cat`.
-- How to inspect the current working directory for useful files.
+_To be added after completing the level._
 
 ## Notes
 
-The password itself is intentionally omitted.
+Passwords and active credentials will not be published.
