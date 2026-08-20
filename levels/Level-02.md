@@ -2,24 +2,22 @@
 
 ## Goal
 
-Read the file whose filename is a single dash (`-`).
+_To be documented after I complete this level._
 
 ## Approach
 
-A dash can be interpreted by many commands as standard input, so I referenced the file using a relative path.
+_To be documented from my own solution._
 
 ## Commands Used
 
 ```bash
-ls
-cat ./-
+# Commands will be added after completing the level
 ```
 
 ## What I Learned
 
-- Why filenames beginning with or equal to `-` can be special in Linux commands.
-- How `./` can be used to explicitly reference a file in the current directory.
+_To be added after completing the level._
 
 ## Notes
 
-The password is intentionally omitted.
+Passwords and active credentials will not be published.
