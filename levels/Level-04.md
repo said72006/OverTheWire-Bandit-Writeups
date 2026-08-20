@@ -2,26 +2,22 @@
 
 ## Goal
 
-Find and read a hidden file inside the `inhere` directory.
+_To be documented after I complete this level._
 
 ## Approach
 
-Normal `ls` does not show hidden files, so I used the `-a` option after entering the directory.
+_To be documented from my own solution._
 
 ## Commands Used
 
 ```bash
-cd inhere
-ls -a
-cat .hidden
+# Commands will be added after completing the level
 ```
 
 ## What I Learned
 
-- Hidden files in Linux begin with `.`.
-- `ls -a` displays hidden entries.
-- How to move between directories using `cd`.
+_To be added after completing the level._
 
 ## Notes
 
-The password is intentionally omitted.
+Passwords and active credentials will not be published.
