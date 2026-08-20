@@ -40,7 +40,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 
 | Milestone | Levels | Status |
 |---|---|---|
-| 🟡 Milestone 01 | 0–4 | In Progress |
+| ✅ Milestone 01 | 0–4 | Completed |
 | ⬜ Milestone 02 | 5–9 | Not Started |
 | ⬜ Milestone 03 | 10–14 | Not Started |
 | ⬜ Milestone 04 | 15–19 | Not Started |
@@ -48,7 +48,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 | ⬜ Milestone 06 | 25–29 | Not Started |
 | ⬜ Milestone 07 | 30+ | Not Started |
 
-### Milestone 01 — Levels 0–4
+### Milestone 01 — Levels 0–4 ✅
 
 - [Level 00 — SSH Connection](levels/Level-00.md)
 - [Level 01](levels/Level-01.md)
