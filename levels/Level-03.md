@@ -2,25 +2,22 @@
 
 ## Goal
 
-Read a file whose name contains spaces.
+_To be documented after I complete this level._
 
 ## Approach
 
-Because spaces separate command arguments, I treated the entire filename as one argument by quoting it.
+_To be documented from my own solution._
 
 ## Commands Used
 
 ```bash
-ls
-cat "spaces in this filename"
+# Commands will be added after completing the level
 ```
 
 ## What I Learned
 
-- How Linux shells treat spaces in filenames.
-- How quoting keeps a filename with spaces together as one argument.
-- An alternative is escaping spaces with backslashes.
+_To be added after completing the level._
 
 ## Notes
 
-The password is intentionally omitted.
+Passwords and active credentials will not be published.
