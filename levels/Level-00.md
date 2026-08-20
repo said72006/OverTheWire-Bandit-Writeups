@@ -2,22 +2,32 @@
 
 ## Goal
 
-_To be documented after I complete this level._
+Connect to the OverTheWire Bandit server using SSH, inspect the home directory, and find the password for the next level.
 
 ## Approach
 
-_To be documented from my own solution._
+I first connected to the Bandit server using SSH on port `2220` with the `bandit0` username.
+
+After logging in with the official starting credentials, I used `ls` to list the contents of the current directory. I found a file named `readme`, so I used `cat readme` to read its contents.
+
+The file displayed a welcome message and the password required for the next level.
 
 ## Commands Used
 
 ```bash
-# Commands will be added after completing the level
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+ls
+cat readme
 ```
 
 ## What I Learned
 
-_To be added after completing the level._
+- How to connect to a remote Linux machine using `ssh`.
+- How to specify a custom SSH port using `-p`.
+- How to list files in the current directory using `ls`.
+- How to display the contents of a text file using `cat`.
+- A simple workflow for exploring a remote Linux environment after logging in.
 
 ## Notes
 
-Passwords and active credentials will not be published.
+The password for the next level is intentionally omitted from this write-up.
