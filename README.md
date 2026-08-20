@@ -30,7 +30,7 @@ Each write-up focuses on:
 - Writing down the lesson learned
 
 > [!IMPORTANT]
-> **Passwords, flags, and active credentials are intentionally not published.** The repository documents the learning process without spoiling the challenges.
+> **Passwords, flags, and active credentials are intentionally not published.** The repository documents the learning process without publishing credentials or exact target answers.
 
 ---
 
@@ -41,7 +41,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 | Milestone | Levels | Status |
 |---|---|---|
 | ✅ Milestone 01 | 0–4 | Completed |
-| ⬜ Milestone 02 | 5–9 | Not Started |
+| 🟡 Milestone 02 | 5–9 | In Progress |
 | ⬜ Milestone 03 | 10–14 | Not Started |
 | ⬜ Milestone 04 | 15–19 | Not Started |
 | ⬜ Milestone 05 | 20–24 | Not Started |
@@ -56,6 +56,10 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 03](levels/Level-03.md)
 - [Level 04](levels/Level-04.md)
 
+### Milestone 02 — Levels 5–9 🟡
+
+- [Level 05 — Recursive File Search](levels/Level-05.md)
+
 ---
 
 ## 🧠 Skills I'm Practicing
@@ -65,9 +69,9 @@ Linux CLI
    ├── Navigation & file handling
    ├── Hidden and unusual filenames
    ├── Permissions & ownership
-   ├── Searching & filtering
-   ├── Pipes & redirection
-   └── Text processing
+   ├── Recursive file searching
+   ├── File type and size filtering
+   └── Shell wildcards
 
 Remote Access
    └── SSH
@@ -81,13 +85,11 @@ Cybersecurity Mindset
 
 ---
 
-## 🧰 Commands & Tools
+## 🧰 Commands & Tools Used So Far
 
-As I progress, this repository will include practical use of tools such as:
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find`
 
-`ssh` • `ls` • `cd` • `cat` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `xxd` • `tar` • `gzip` • `bzip2`
-
-The list grows naturally as new levels introduce new concepts.
+This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
 ---
 
@@ -104,7 +106,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-01.md
     ├── Level-02.md
     ├── Level-03.md
-    └── Level-04.md
+    ├── Level-04.md
+    └── Level-05.md
 ```
 
 ---
