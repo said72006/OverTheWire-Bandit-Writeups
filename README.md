@@ -60,6 +60,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 
 - [Level 05 — Recursive File Search](levels/Level-05.md)
 - [Level 06 — Ownership Filters & Error Redirection](levels/Level-06.md)
+- [Level 07 — Text Search with grep](levels/Level-07.md)
 
 ---
 
@@ -72,6 +73,7 @@ Linux CLI
    ├── Permissions & ownership
    ├── Recursive and filesystem-wide searching
    ├── File type, owner, group, and size filtering
+   ├── Text searching with grep
    ├── Standard output vs standard error
    ├── Error redirection with 2>/dev/null
    └── Shell wildcards
@@ -90,7 +92,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -111,7 +113,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-03.md
     ├── Level-04.md
     ├── Level-05.md
-    └── Level-06.md
+    ├── Level-06.md
+    └── Level-07.md
 ```
 
 ---
