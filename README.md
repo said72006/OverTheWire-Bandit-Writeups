@@ -41,7 +41,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 | Milestone | Levels | Status |
 |---|---|---|
 | ✅ Milestone 01 | 0–4 | Completed |
-| 🟡 Milestone 02 | 5–9 | In Progress |
+| ✅ Milestone 02 | 5–9 | Completed |
 | ⬜ Milestone 03 | 10–14 | Not Started |
 | ⬜ Milestone 04 | 15–19 | Not Started |
 | ⬜ Milestone 05 | 20–24 | Not Started |
@@ -56,12 +56,13 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 03](levels/Level-03.md)
 - [Level 04](levels/Level-04.md)
 
-### Milestone 02 — Levels 5–9 🟡
+### Milestone 02 — Levels 5–9 ✅
 
 - [Level 05 — Recursive File Search](levels/Level-05.md)
 - [Level 06 — Ownership Filters & Error Redirection](levels/Level-06.md)
 - [Level 07 — Text Search with grep](levels/Level-07.md)
 - [Level 08 — Sorting, Counting & Pipes](levels/Level-08.md)
+- [Level 09 — Extracting Readable Strings](levels/Level-09.md)
 
 ---
 
@@ -76,6 +77,7 @@ Linux CLI
    ├── File type, owner, group, and size filtering
    ├── Text searching with grep
    ├── Sorting and duplicate counting
+   ├── Extracting readable strings from mixed/binary data
    ├── Command pipelines with |
    ├── Standard output vs standard error
    ├── Error redirection with 2>/dev/null
@@ -95,7 +97,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -118,7 +120,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-05.md
     ├── Level-06.md
     ├── Level-07.md
-    └── Level-08.md
+    ├── Level-08.md
+    └── Level-09.md
 ```
 
 ---
