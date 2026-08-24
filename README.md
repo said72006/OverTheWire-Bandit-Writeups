@@ -42,7 +42,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 |---|---|---|
 | ✅ Milestone 01 | 0–4 | Completed |
 | ✅ Milestone 02 | 5–9 | Completed |
-| ⬜ Milestone 03 | 10–14 | Not Started |
+| 🟡 Milestone 03 | 10–14 | In Progress |
 | ⬜ Milestone 04 | 15–19 | Not Started |
 | ⬜ Milestone 05 | 20–24 | Not Started |
 | ⬜ Milestone 06 | 25–29 | Not Started |
@@ -64,6 +64,10 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 08 — Sorting, Counting & Pipes](levels/Level-08.md)
 - [Level 09 — Extracting Readable Strings](levels/Level-09.md)
 
+### Milestone 03 — Levels 10–14 🟡
+
+- [Level 10 — Base64 Decoding](levels/Level-10.md)
+
 ---
 
 ## 🧠 Skills I'm Practicing
@@ -78,6 +82,7 @@ Linux CLI
    ├── Text searching with grep
    ├── Sorting and duplicate counting
    ├── Extracting readable strings from mixed/binary data
+   ├── Base64 encoding and decoding
    ├── Command pipelines with |
    ├── Standard output vs standard error
    ├── Error redirection with 2>/dev/null
@@ -97,7 +102,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -121,7 +126,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-06.md
     ├── Level-07.md
     ├── Level-08.md
-    └── Level-09.md
+    ├── Level-09.md
+    └── Level-10.md
 ```
 
 ---
