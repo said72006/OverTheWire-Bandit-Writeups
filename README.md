@@ -67,6 +67,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 ### Milestone 03 — Levels 10–14 🟡
 
 - [Level 10 — Base64 Decoding](levels/Level-10.md)
+- [Level 11 — ROT13 with tr](levels/Level-11.md)
 
 ---
 
@@ -83,7 +84,9 @@ Linux CLI
    ├── Sorting and duplicate counting
    ├── Extracting readable strings from mixed/binary data
    ├── Base64 encoding and decoding
+   ├── ROT13 and character translation with tr
    ├── Command pipelines with |
+   ├── Input redirection with <
    ├── Standard output vs standard error
    ├── Error redirection with 2>/dev/null
    └── Shell wildcards
@@ -102,7 +105,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -127,7 +130,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-07.md
     ├── Level-08.md
     ├── Level-09.md
-    └── Level-10.md
+    ├── Level-10.md
+    └── Level-11.md
 ```
 
 ---
