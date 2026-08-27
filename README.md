@@ -43,7 +43,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 | ✅ Milestone 01 | 0–4 | Completed |
 | ✅ Milestone 02 | 5–9 | Completed |
 | ✅ Milestone 03 | 10–14 | Completed |
-| ⬜ Milestone 04 | 15–19 | Not Started |
+| 🟡 Milestone 04 | 15–19 | In Progress |
 | ⬜ Milestone 05 | 20–24 | Not Started |
 | ⬜ Milestone 06 | 25–29 | Not Started |
 | ⬜ Milestone 07 | 30+ | Not Started |
@@ -71,6 +71,10 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 12 — Hexdump & Repeated Compression](levels/Level-12.md)
 - [Level 13 — SSH Private Key Authentication](levels/Level-13.md)
 - [Level 14 — Netcat & Localhost Service](levels/Level-14.md)
+
+### Milestone 04 — Levels 15–19 🟡
+
+- [Level 15 — TLS Connection with OpenSSL](levels/Level-15.md)
 
 ---
 
@@ -107,7 +111,9 @@ Remote Access & Networking
    ├── Selecting identity files with ssh -i
    ├── Connecting to localhost services
    ├── Understanding destination ports
-   └── Basic TCP interaction with Netcat
+   ├── Basic TCP interaction with Netcat
+   ├── SSL/TLS client connections
+   └── Using OpenSSL s_client for encrypted services
 
 Cybersecurity Mindset
    ├── Enumeration
@@ -122,7 +128,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -151,7 +157,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-11.md
     ├── Level-12.md
     ├── Level-13.md
-    └── Level-14.md
+    ├── Level-14.md
+    └── Level-15.md
 ```
 
 ---
