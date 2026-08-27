@@ -42,7 +42,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 |---|---|---|
 | ✅ Milestone 01 | 0–4 | Completed |
 | ✅ Milestone 02 | 5–9 | Completed |
-| 🟡 Milestone 03 | 10–14 | In Progress |
+| ✅ Milestone 03 | 10–14 | Completed |
 | ⬜ Milestone 04 | 15–19 | Not Started |
 | ⬜ Milestone 05 | 20–24 | Not Started |
 | ⬜ Milestone 06 | 25–29 | Not Started |
@@ -64,12 +64,13 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 08 — Sorting, Counting & Pipes](levels/Level-08.md)
 - [Level 09 — Extracting Readable Strings](levels/Level-09.md)
 
-### Milestone 03 — Levels 10–14 🟡
+### Milestone 03 — Levels 10–14 ✅
 
 - [Level 10 — Base64 Decoding](levels/Level-10.md)
 - [Level 11 — ROT13 with tr](levels/Level-11.md)
 - [Level 12 — Hexdump & Repeated Compression](levels/Level-12.md)
 - [Level 13 — SSH Private Key Authentication](levels/Level-13.md)
+- [Level 14 — Netcat & Localhost Service](levels/Level-14.md)
 
 ---
 
@@ -100,10 +101,13 @@ Linux CLI
    ├── Error redirection with 2>/dev/null
    └── Shell wildcards
 
-Remote Access
+Remote Access & Networking
    ├── SSH
    ├── SSH private key authentication
-   └── Selecting identity files with ssh -i
+   ├── Selecting identity files with ssh -i
+   ├── Connecting to localhost services
+   ├── Understanding destination ports
+   └── Basic TCP interaction with Netcat
 
 Cybersecurity Mindset
    ├── Enumeration
@@ -118,7 +122,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -146,7 +150,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-10.md
     ├── Level-11.md
     ├── Level-12.md
-    └── Level-13.md
+    ├── Level-13.md
+    └── Level-14.md
 ```
 
 ---
