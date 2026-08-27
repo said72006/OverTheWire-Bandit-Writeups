@@ -30,7 +30,7 @@ Each write-up focuses on:
 - Writing down the lesson learned
 
 > [!IMPORTANT]
-> **Passwords, flags, and active credentials are intentionally not published.** The repository documents the learning process without publishing credentials or exact target answers.
+> **Passwords, flags, private keys, and active credentials are intentionally not published.** The repository documents the learning process without publishing credentials or exact target answers.
 
 ---
 
@@ -69,6 +69,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 10 — Base64 Decoding](levels/Level-10.md)
 - [Level 11 — ROT13 with tr](levels/Level-11.md)
 - [Level 12 — Hexdump & Repeated Compression](levels/Level-12.md)
+- [Level 13 — SSH Private Key Authentication](levels/Level-13.md)
 
 ---
 
@@ -91,6 +92,7 @@ Linux CLI
    ├── gzip and bzip2 decompression
    ├── tar archive inspection and extraction
    ├── Working safely in temporary directories
+   ├── File permission hardening with chmod
    ├── Command pipelines with |
    ├── Input redirection with <
    ├── Output redirection with >
@@ -99,13 +101,16 @@ Linux CLI
    └── Shell wildcards
 
 Remote Access
-   └── SSH
+   ├── SSH
+   ├── SSH private key authentication
+   └── Selecting identity files with ssh -i
 
 Cybersecurity Mindset
    ├── Enumeration
    ├── Problem solving
    ├── Reading clues carefully
    ├── Inspecting before acting
+   ├── Protecting credentials and private keys
    └── Choosing the right command/tool
 ```
 
@@ -113,7 +118,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -140,7 +145,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-09.md
     ├── Level-10.md
     ├── Level-11.md
-    └── Level-12.md
+    ├── Level-12.md
+    └── Level-13.md
 ```
 
 ---
