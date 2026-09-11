@@ -76,6 +76,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 
 - [Level 15 — TLS Connection with OpenSSL](levels/Level-15.md)
 - [Level 16 — Port Scanning & TLS Service Enumeration](levels/Level-16.md)
+- [Level 17 — Comparing Changed Lines with diff](levels/Level-17.md)
 
 ---
 
@@ -90,6 +91,7 @@ Linux CLI
    ├── File type, owner, group, and size filtering
    ├── Text searching with grep
    ├── Sorting and duplicate counting
+   ├── Comparing file changes with diff
    ├── Extracting readable strings from mixed/binary data
    ├── Base64 encoding and decoding
    ├── ROT13 and character translation with tr
@@ -133,7 +135,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl` • `nmap`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl` • `nmap` • `diff`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -164,7 +166,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-13.md
     ├── Level-14.md
     ├── Level-15.md
-    └── Level-16.md
+    ├── Level-16.md
+    └── Level-17.md
 ```
 
 ---
