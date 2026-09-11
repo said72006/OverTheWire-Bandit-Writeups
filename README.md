@@ -43,7 +43,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 | ✅ Milestone 01 | 0–4 | Completed |
 | ✅ Milestone 02 | 5–9 | Completed |
 | ✅ Milestone 03 | 10–14 | Completed |
-| 🟡 Milestone 04 | 15–19 | In Progress |
+| ✅ Milestone 04 | 15–19 | Completed |
 | ⬜ Milestone 05 | 20–24 | Not Started |
 | ⬜ Milestone 06 | 25–29 | Not Started |
 | ⬜ Milestone 07 | 30+ | Not Started |
@@ -72,12 +72,13 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 13 — SSH Private Key Authentication](levels/Level-13.md)
 - [Level 14 — Netcat & Localhost Service](levels/Level-14.md)
 
-### Milestone 04 — Levels 15–19 🟡
+### Milestone 04 — Levels 15–19 ✅
 
 - [Level 15 — TLS Connection with OpenSSL](levels/Level-15.md)
 - [Level 16 — Port Scanning & TLS Service Enumeration](levels/Level-16.md)
 - [Level 17 — Comparing Changed Lines with diff](levels/Level-17.md)
 - [Level 18 — Remote Command Execution over SSH](levels/Level-18.md)
+- [Level 19 — SUID & Privilege Execution](levels/Level-19.md)
 
 ---
 
@@ -102,6 +103,8 @@ Linux CLI
    ├── tar archive inspection and extraction
    ├── Working safely in temporary directories
    ├── File permission hardening with chmod
+   ├── Understanding the SUID permission bit
+   ├── Recognizing shell builtins vs standalone executables
    ├── Command pipelines with |
    ├── Input redirection with <
    ├── Output redirection with >
@@ -129,6 +132,8 @@ Cybersecurity Mindset
    ├── Problem solving
    ├── Reading clues carefully
    ├── Inspecting before acting
+   ├── Understanding effective user privileges
+   ├── Recognizing privilege-boundary risks in SUID programs
    ├── Protecting credentials and private keys
    └── Choosing the right command/tool
 ```
@@ -137,7 +142,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl` • `nmap` • `diff`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl` • `nmap` • `diff` • `whoami`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -170,7 +175,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-15.md
     ├── Level-16.md
     ├── Level-17.md
-    └── Level-18.md
+    ├── Level-18.md
+    └── Level-19.md
 ```
 
 ---
