@@ -77,6 +77,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 15 — TLS Connection with OpenSSL](levels/Level-15.md)
 - [Level 16 — Port Scanning & TLS Service Enumeration](levels/Level-16.md)
 - [Level 17 — Comparing Changed Lines with diff](levels/Level-17.md)
+- [Level 18 — Remote Command Execution over SSH](levels/Level-18.md)
 
 ---
 
@@ -111,6 +112,7 @@ Linux CLI
 Remote Access & Networking
    ├── SSH
    ├── SSH private key authentication
+   ├── Executing remote commands directly over SSH
    ├── Selecting identity files with ssh -i
    ├── Connecting to localhost services
    ├── Scanning TCP port ranges with Nmap
@@ -167,7 +169,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-14.md
     ├── Level-15.md
     ├── Level-16.md
-    └── Level-17.md
+    ├── Level-17.md
+    └── Level-18.md
 ```
 
 ---
