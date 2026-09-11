@@ -75,6 +75,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 ### Milestone 04 — Levels 15–19 🟡
 
 - [Level 15 — TLS Connection with OpenSSL](levels/Level-15.md)
+- [Level 16 — Port Scanning & TLS Service Enumeration](levels/Level-16.md)
 
 ---
 
@@ -110,10 +111,14 @@ Remote Access & Networking
    ├── SSH private key authentication
    ├── Selecting identity files with ssh -i
    ├── Connecting to localhost services
+   ├── Scanning TCP port ranges with Nmap
+   ├── Service/version detection with nmap -sV
+   ├── Distinguishing echo and TLS services
    ├── Understanding destination ports
    ├── Basic TCP interaction with Netcat
    ├── SSL/TLS client connections
-   └── Using OpenSSL s_client for encrypted services
+   ├── Using OpenSSL s_client for encrypted services
+   └── Handling OpenSSL connected commands with -nocommands
 
 Cybersecurity Mindset
    ├── Enumeration
@@ -128,7 +133,7 @@ Cybersecurity Mindset
 
 ## 🧰 Commands & Tools Used So Far
 
-`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl`
+`ssh` • `ls` • `cd` • `cat` • `more` • `file` • `find` • `grep` • `sort` • `uniq` • `strings` • `base64` • `tr` • `whatis` • `mktemp` • `cp` • `mv` • `xxd` • `gzip` • `bzip2` • `tar` • `chmod` • `nc` • `openssl` • `nmap`
 
 This list contains commands I have actually used during my Bandit progress and will grow as I continue.
 
@@ -158,7 +163,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-12.md
     ├── Level-13.md
     ├── Level-14.md
-    └── Level-15.md
+    ├── Level-15.md
+    └── Level-16.md
 ```
 
 ---
