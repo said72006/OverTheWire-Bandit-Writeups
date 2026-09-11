@@ -44,7 +44,7 @@ I publish my progress in **5-level milestones** so each update represents a mean
 | ✅ Milestone 02 | 5–9 | Completed |
 | ✅ Milestone 03 | 10–14 | Completed |
 | ✅ Milestone 04 | 15–19 | Completed |
-| ⬜ Milestone 05 | 20–24 | Not Started |
+| 🟡 Milestone 05 | 20–24 | In Progress |
 | ⬜ Milestone 06 | 25–29 | Not Started |
 | ⬜ Milestone 07 | 30+ | Not Started |
 
@@ -79,6 +79,10 @@ I publish my progress in **5-level milestones** so each update represents a mean
 - [Level 17 — Comparing Changed Lines with diff](levels/Level-17.md)
 - [Level 18 — Remote Command Execution over SSH](levels/Level-18.md)
 - [Level 19 — SUID & Privilege Execution](levels/Level-19.md)
+
+### Milestone 05 — Levels 20–24 🟡
+
+- [Level 20 — Local TCP Client/Server with Netcat](levels/Level-20.md)
 
 ---
 
@@ -123,6 +127,8 @@ Remote Access & Networking
    ├── Distinguishing echo and TLS services
    ├── Understanding destination ports
    ├── Basic TCP interaction with Netcat
+   ├── Listening for local TCP connections with nc -l
+   ├── Understanding TCP client/server roles
    ├── SSL/TLS client connections
    ├── Using OpenSSL s_client for encrypted services
    └── Handling OpenSSL connected commands with -nocommands
@@ -176,7 +182,8 @@ OverTheWire-Bandit-Writeups/
     ├── Level-16.md
     ├── Level-17.md
     ├── Level-18.md
-    └── Level-19.md
+    ├── Level-19.md
+    └── Level-20.md
 ```
 
 ---
